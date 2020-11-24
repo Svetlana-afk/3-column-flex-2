@@ -1,0 +1,32 @@
+* {
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    height: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    background-color: #f0edd3;
+    flex-grow: 5;
+    height: calc(100% - 100px);
+}
+
+nav, aside {
+    background-color: #835b7c;
+    width: 100px;
+    height: calc(100% - 100px)
+}
+ 
+header, footer {
+    width: 100%;
+    height: 50px;
+    background-color: #ddb0d2;
+    flex-grow: 0;
+}
